@@ -34,6 +34,9 @@ This project demonstrates manual testing of an e-commerce application using the 
 
 ```
 ├── OpenCart_Manual_Testing_Project.xlsx
+├── TestCases.csv
+├── BugReport.csv
+├── TestSummary.csv
 ├── Screenshots/
 ├── README.md
 ```
@@ -60,7 +63,17 @@ The following modules were tested:
 * Bugs Identified: 6
 
 ---
+##  Test Documentation
 
+- Complete documentation is available in:
+  - OpenCart_Manual_Testing_Project.xlsx
+
+- For quick preview on GitHub:
+  - TestCases.csv
+  - BugReport.csv
+  - TestSummary.csv
+  
+---
 ##  Bug Reporting
 
 * Bugs are documented in the Excel file with:
@@ -78,8 +91,7 @@ The following modules were tested:
 
 ##  Screenshots
 
-* Screenshots are captured for UI-related issues and linked directly in the Excel document.
-* For time-based or non-visual issues (e.g., session timeout), detailed observations are provided instead of screenshots.
+* Screenshots are linked within the Excel file for each applicable defect.
 
 ---
 
@@ -100,5 +112,7 @@ The following modules were tested:
 ---
 
 ##  Author
-Jatin Mathur
+Jatin Mathur 
+Aspiring QA Engineer | Manual Testing Enthusiast  
+Open to opportunities in Software Testing / QA roles
 
