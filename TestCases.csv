@@ -1,0 +1,21 @@
+Test Case ID,Module,Test Scenario,Test Steps,Test Data,Expected Result,Actual Result,Status
+TC001,Login,Valid Login,Enter valid email & password → Click Login,user@test.com / 123456,User logs in successfully,Same,Pass
+TC002,Login,Invalid Password,Enter correct email + wrong password,user@test.com / wrong123,Error message shown,Same,Pass
+TC003,Login,Empty Fields,Click login without entering data,-,Validation message,Same,Pass
+TC004,Login,Invalid Email Format,Enter wrong email format,user@com,Error shown,Same,Pass
+TC005,Register,Valid Registration,Fill all fields → Submit,Valid details,Account created,Same,Pass
+TC006,Register,Missing Fields,Leave mandatory fields blank,-,Error message,Same,Pass
+TC007,Register,Existing Email,Use already registered email,user@test.com,Error shown,Same,Pass
+TC008,Search,Valid Product Search,Search Laptop,Laptop,Results shown,Same,Pass
+TC009,Search,Invalid Product,Search random text,xyz123,No results message,Same,Pass
+TC010,Search,Empty Search,Click search without input,-,No results/prompt,Same,Pass
+TC011,Cart,Add to Cart,Add product to cart,Any product,Product added,Same,Pass
+TC012,Cart,Remove Item,Remove product,-,Item removed,Same,Pass
+TC013,Cart,Update Quantity,Change quantity,2,Quantity updated,Same,Pass
+TC014,Cart,Add Out of Stock,Add unavailable item,-,Error shown,Item added,Fail
+TC015,Checkout,Valid Checkout,Complete checkout,Valid data,Order placed,Same,Pass
+TC016,Checkout,Missing Address,Skip address,-,Error message,Same,Pass
+TC017,Checkout,Invalid Payment,Enter wrong payment,invalid,Error shown,Same,Pass
+TC018,Checkout,Empty Cart Checkout,Checkout with empty cart,-,Blocked,Same,Pass
+TC019,Checkout,Session Timeout,Wait then checkout,-,Session expired,Not expired,Fail
+TC020,Checkout,Multiple Orders,Place multiple orders quickly,-,Handled properly,Slow response,Fail
