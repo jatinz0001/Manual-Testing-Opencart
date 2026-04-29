@@ -1,0 +1,7 @@
+Bug ID,Module,Bug Title,Description,Steps to Reproduce,Expected Result,Actual Result,Severity,Status,Screenshot
+BUG001,Cart,Out of Stock Product Added,User can add unavailable product,Add out-of-stock item,Should block,Item added,High,Open,BUG001 Screenshot
+BUG002,Checkout,Session Not Expiring,Session remains active too long,Stay idle & checkout,Should expire,Still active,Medium,Open,          N/A 
+BUG003,Login,Weak Password Accepted,System allows weak password,Register weak password,Should reject,Accepted,Medium,Open,BUG003 Screenshot
+BUG004,Checkout,Slow Order Processing,Delay during checkout,Place order,Fast response,Slow,Low,Open,BUG004 Screenshot
+BUG005,Search,Case Sensitivity Issue,Search fails for uppercase,Search LAPTOP,Show results,No results,Medium,Open,BUG005 Screenshot
+BUG006,Cart,No Quantity Limit,Unlimited quantity allowed,Increase quantity,Should restrict,No restriction,High,Open,BUG006 Screenshot
